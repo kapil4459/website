@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Department Home - College Management</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+  .logo {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;   /* Ensures it fills the square without distortion */
+  border-radius: 50%;  /* Makes it circular */
+  margin-bottom: 10px;
+}
+
+
+    .container {
+      padding: 30px;
+      text-align: center;
+    }
+
+    .line {
+      margin: 10px 0;
+      font-size: 1.2em;
+      color: #333;
+    }
+
+    .management-section {
+      margin-top: 40px;
+    }
+
+    .management-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      width: 200px;
+      padding: 20px;
+      transition: transform 0.2s;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #003366;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+  <!-- Use correct relative path and class for circular logo -->
+  <img src="logo.png" alt="Karnataka Government Logo" class="logo">
+  <h1>Department of Information Science</h1>
+</header>
+  <div class="container">
+    <div class="line">Welcome to the College Management Portal</div>
+    <div class="line">Department of Information Science</div>
+    <div class="line">Organizing academics with technology and transparency</div>
+
+    <div class="management-section">
+      <h2>College Management Sections</h2>
+      <div class="management-grid">
+        <div class="card"><a href="attendence.html">Attendance</a></div>
+        <div class="card"><a href="assignment.html">Assignments</a></div>
+        <div class="card"><a href="result.html">Results</a></div>
+        <div class="card"><a href="notice.html">Notices</a></div>
+        <div class="card"><a href="event.html">Events</a></div>
+        <div class="card"><a href="profile.html">Profile</a></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
